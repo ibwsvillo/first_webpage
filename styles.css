@@ -1,3 +1,12 @@
+/* the asterisk below is a universal selector - meaning it will modify everything on the page unless specified otherwise */
+* {
+    line-height: 1.25
+}
+/* the declarations below will change the font-family for the entire page unless specified otherwise */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 /* the below is modifying all p element background-colors */
 p {
     background-color: aquamarine
