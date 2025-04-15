@@ -1,0 +1,22 @@
+/* the below is modifying all p element background-colors */
+p {
+    background-color: aquamarine
+}
+
+/* the below is modifying the element that has a class attribute of test-p1 */
+/* if this attribute is in a p element, then it will overwrite the css for the p element above */
+.test-p1, .test-p2 {
+    background-color: crimson;
+    color: white
+}
+
+/* the below is modifying the element that has a id attribute of master-p */
+/* if this id attribute is in a p element, then it will overwrite the cass for the p element above */
+#master-p {
+    background-color: brown;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center
+}
+
