@@ -29,3 +29,17 @@ p {
     text-align: center;
 }
 
+.header6 {
+    color: lightblue;
+    background-color: beige;
+}
+
+h6, .header7 {
+    font-size: 24px;
+    color: red;
+}
+
+.header7 {
+    color: blue;
+    background-color: bisque;
+}
