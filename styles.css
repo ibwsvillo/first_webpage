@@ -1,6 +1,9 @@
 /* the asterisk below is a universal selector - meaning it will modify everything on the page unless specified otherwise */
 * {
+    margin: 0px;
+    padding: 0px;
     line-height: 1.25;
+    outline: 2px solid red;
 }
 /* the declarations below will change the font-family for the entire page unless specified otherwise */
 body {
@@ -42,4 +45,16 @@ h6, .header7 {
 .header7 {
     color: blue;
     background-color: bisque;
+}
+
+.box1 {
+    width: 200px;
+    height: 300px;
+    background-color: black;
+}
+
+.box2 {
+    width: 200px;
+    height: 300px;
+    background-color: blue;
 }
