@@ -77,7 +77,18 @@ div p {
 }
 
 .flex-container > * {
-    flex: 0 1 25%;
+    border: 2px solid blue;
     height: 100px;
-    border: 3px solid blue;
+}
+
+.one-con {
+    flex: 1 1 0%;
+}
+
+.two-con {
+    flex: 1 1 75%;
+}
+
+.three-con {
+    flex: 5 0 0%;
 }
