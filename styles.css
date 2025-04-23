@@ -70,12 +70,14 @@ div p {
 
 .flex-container {
     display: flex;
-    /* gap: 2rem; */
-    border: 10px solid firebrick;
+    gap: 1rem;
+    border: 5px solid firebrick;
+    padding:10px;
+    margin: 10px;
 }
 
 .flex-container > * {
-    flex: 1 1 0;
+    flex: 0 1 25%;
     height: 100px;
     border: 3px solid blue;
 }
