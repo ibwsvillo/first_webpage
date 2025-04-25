@@ -70,26 +70,8 @@ div p {
 
 .flex-container {
     display: flex;
-    gap: 1rem;
     border: 5px solid firebrick;
     padding:10px;
     margin: 10px;
-}
-
-.flex-container > * {
-    border: 2px solid blue;
-    height: 500px;
-    flex-direction: column;
-}
-
-.one-con {
-    flex: 1 1 0%;
-}
-
-.two-con {
-    flex: 1 1 0%;
-}
-
-.three-con {
-    flex: 5 0 0%;
+    justify-content: space-evenly;
 }
